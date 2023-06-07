@@ -21,7 +21,7 @@
             @android:transition/explode
         </item>
         <item name="android:windowActivityTransitions" tools:ignore="NewApi">true</item>
-        <!-- Color customization. -->
+        <!-- MyColor customization. -->
         <item name="background">@android:color/white</item>
         <item name="cardBackgroundColor">@color/primaryLightColor</item>
         <item name="android:textColor">@android:color/black</item>

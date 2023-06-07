@@ -34,8 +34,9 @@
             android:padding="12dp"
             android:textStyle="bold"/>
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/layout.view.driver.license"
+            android:id="@+id/layout.view.selected.doc"
             android:layout_width="match_parent"
+            android:visibility="gone"
             android:layout_height="wrap_content"
             android:paddingHorizontal="12dp"
             android:paddingVertical="16dp">
@@ -71,11 +72,18 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select document folder"
+            android:layout_gravity="start"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:entries="@array/arr.folders"
-            android:layout_marginTop="16dp"/>
+            android:layout_marginTop="8dp"/>
     </LinearLayout>
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"

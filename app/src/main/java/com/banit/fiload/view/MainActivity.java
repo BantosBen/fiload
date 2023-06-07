@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 ActivityUtils.loadActivity(MainActivity.this, DashboardActivity.class, null);
+                finish();
             }
         });
         binding.txtSignUp.setOnClickListener(new View.OnClickListener() {
