@@ -107,11 +107,9 @@ public class UploadActivity extends AppCompatActivity {
                 try {
                     JSONObject responseObject = new JSONObject(response);
                     if (!responseObject.getBoolean("error")){
-                        DialogUtils.successDialog("SUCCESS", responseObject.getString("message"), mContext, () -> {
-                        });
+                        DialogUtils.successDialog("SUCCESS", responseObject.getString("message"), mContext, this::finish);
                     }else{
                         DialogUtils.errorDialog("Oops! Error", "Failed to upload the file. Internal error occurred", mContext);
-
                     }
                 } catch (JSONException e) {
                     DialogUtils.errorDialog("Oops! Error", "Something went wrong kindly try again", mContext);
