@@ -1,8 +1,13 @@
 package com.banit.fiload.utils;
 
+import static androidx.core.content.ContextCompat.getSystemService;
+
+import android.app.DownloadManager;
 import android.content.ContentResolver;
+import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
+import android.os.Environment;
 import android.provider.MediaStore;
 
 import java.io.File;
@@ -58,6 +63,5 @@ public class FileUtils {
             throw new IOException("File does not exist.");
         }
     }
-
 
 }

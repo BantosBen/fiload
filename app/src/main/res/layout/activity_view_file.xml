@@ -12,11 +12,36 @@
         app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/toolbar"/>
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyler.view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         tools:listitem="@layout/file_item"
         app:layout_constraintTop_toBottomOf="@id/toolbar"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:layout_margin="12dp"/>
+    <ProgressBar
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/primaryDarkColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginVertical="16dp"
+        android:id="@+id/progress.bar"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAppearance="?textAppearanceBody1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/txt.message" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

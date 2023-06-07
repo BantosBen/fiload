@@ -121,7 +121,7 @@ public class UploadActivity extends AppCompatActivity {
                         error.printStackTrace();
                         binding.progressBar.setVisibility(View.GONE);
                         // Handle the error
-                        DialogUtils.errorDialog("Oops! Error", "Failed to upload the file. Kindly try again", mContext);
+                        DialogUtils.errorDialog("Oops! Error", "Failed to upload the file. Kindly check your internet and try again", mContext);
                     }) {
 
                 @Override
