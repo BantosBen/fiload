@@ -32,6 +32,7 @@
             android:layout_height="wrap_content"
             android:text="SELECT FILE"
             android:padding="12dp"
+            android:id="@+id/btn.select.file"
             android:textStyle="bold"/>
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/layout.view.selected.doc"
@@ -42,7 +43,7 @@
             android:paddingVertical="16dp">
 
             <TextView
-                android:id="@+id/txt.name.license"
+                android:id="@+id/txt.name.file"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/ic_cloud_file"
@@ -50,14 +51,14 @@
                 android:drawableTint="@color/secondaryColor"
                 android:text="imagename.png"
                 android:textAppearance="?textAppearanceBody2"
-                app:layout_constraintEnd_toStartOf="@id/txt.delete.license"
+                app:layout_constraintEnd_toStartOf="@id/txt.delete"
                 android:layout_marginEnd="4dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/txt.delete.license"
+                android:id="@+id/txt.delete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/baseline_delete"
@@ -78,17 +79,34 @@
             android:text="Select document folder"
             android:layout_gravity="start"
             android:textStyle="bold"
-            android:layout_marginTop="16dp"/>
+            android:layout_marginTop="16dp" />
+
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="40dp"
+            android:id="@+id/spinner.folder"
             android:entries="@array/arr.folders"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp" />
     </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/primaryDarkColor"
+        app:layout_constraintBottom_toTopOf="@id/btn.upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginVertical="16dp"
+        android:id="@+id/progress.bar"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Upload File"
+        android:id="@+id/btn.upload"
         android:padding="12dp"
         android:backgroundTint="?background"
         app:strokeColor="@color/secondaryColor"
