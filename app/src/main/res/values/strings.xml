@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Fiload</string>
+    <string name="app_name">DigiPay</string>
+    <string name="description_1">Welcome to DigiPay – the all-in-one financial app designed to simplify your finances. With budgeting tools, mobile payments, and top-notch security features, managing your money has never been easier. Let\'s get started!</string>
+    <string name="description_2">DigiPay makes it easy to manage all of your financial accounts in one place. Keep track of your balances, transactions, and other important details with just a few taps.</string>
+    <string name="description_3">With DigiPay\'s budgeting tools, you can create a personalized budget that works for you. Set spending limits for different categories, track your progress, and get alerts when you\'re close to reaching your limits.</string>
+    <string name="description_4">At DigiPay, we take security seriously. Our app uses the latest encryption technology and other security features to keep your personal and financial information safe and secure. You can trust that your money is in good hands with DigiPay.</string>
+    <string name="terms_n_condition">By clicking [SIGN UP] you have read and agreed to our <b><u>Terms and Condition</u></b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="arr.payment.interval">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string-array name="arr.summary.interval">
+        <item>This Month</item>
+        <item>This Week</item>
+        <item>This Year</item>
+    </string-array>
 </resources>
