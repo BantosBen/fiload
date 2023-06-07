@@ -7,7 +7,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryDark">@color/primaryDarkColor</item>
-        <item name="fontFamily">@font/normal</item>
+        <item name="fontFamily">@font/roboto</item>
         <item name="android:navigationBarColor" tools:ignore="NewApi">@color/primaryColor</item>
         <item name="android:windowDisablePreview">true</item>
         <item name="android:statusBarColor" tools:ignore="NewApi">@color/primaryDarkColor</item>

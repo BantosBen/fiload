@@ -31,9 +31,23 @@ android {
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //clan floatingButton
+    implementation 'com.github.clans:fab:1.6.4'
+
+    //File Handler
+    implementation 'com.github.onimur:handle-path-oz:1.0.7'
+
+    //Shimmering
+    implementation 'com.facebook.shimmer:shimmer:0.5.0@aar'
+
+    //Dialog Libraries
+    implementation 'com.github.BantosBen:besid:1.0.2'
+    implementation 'com.github.f0ris.sweetalert:library:1.6.2'
+    implementation 'com.github.javiersantos:BottomDialogs:1.2.1'
 }

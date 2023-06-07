@@ -21,14 +21,14 @@
     <color name="active">#50C2C9</color>
     <color name="textError">#ff6262</color>
 
-    <color name="primaryColor">#1BC86E</color>
-    <color name="primaryLightColor">#58CB8F</color>
-    <color name="primaryLightLittleColor">#3ACB7F</color>
-    <color name="primaryDarkColor">#09964D</color>
-    <color name="secondaryColor">#37A5B2</color>
-    <color name="secondaryLightColor">#73ADB4</color>
-    <color name="secondaryLightLessColor">#56ACB6</color>
-    <color name="secondaryDarkColor">#16808D</color>
+    <color name="primaryColor">#567DF4</color>
+    <color name="primaryLightColor">#7D9CFB</color>
+    <color name="primaryLightLittleColor">#7395FB</color>
+    <color name="primaryDarkColor">#2C4DB4</color>
+    <color name="secondaryColor">#22215B</color>
+    <color name="secondaryLightColor">#6563B6</color>
+    <color name="secondaryLightLessColor">#3C3B89</color>
+    <color name="secondaryDarkColor">#0F0E42</color>
     <color name="primaryTextColor">#1D130F</color>
     <color name="primaryColorBlack">#222222</color>
     <color name="secondaryTextColor">#707070</color>
